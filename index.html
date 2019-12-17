@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyStore</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Yesteryear&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header class="header">
+        <div class="banner">
+          <nav class="main-navigation container">
+            <div class="menu-icon">
+                <h1 class="web_logo">
+                <a href="index.html" class="web_logo-link">MyStore</a>
+            </h1>
+                <i class="fa fa-bars fa-2x mobile-menu-opener"></i>
+            </div>
+            <h1 class="web_logo logo-hidden">
+                <a href="index.html" class="web_logo-link">MyStore</a>
+            </h1>
+            <ul class="main_menu" id="main_menu">
+                <li class="main_menu-item"><a href="#AboutUs" class="main_menu-item--link main_menu-item--active">About Us</a></li>
+                <li class="main_menu-item"><a href="#Colection" class="main_menu-item--link">Shop</a></li>
+                <li class="main_menu-item"><a href="#Contact" class="main_menu-item--link">Contact</a></li>
+                <!-- <li class="main_menu-item"><a href="#" class="main_menu-item--link">SignIn <i class="fa fa-sign-in"></i></a></li> -->
+                <li class="main_menu-item"><a href="#" class="main_menu-item--link search__open"><i class="fa fa-search"></i></a></li>
+                <li class="main_menu-item"><a href="#" data-toggle="modal" data-target="#loginModal" class="main_menu-item--link"><i class="fa fa-sign-in"></i></a></li>
+
+            </ul>
+            <div class="user">
+                        <a href="#" data-toggle="modal" data-target="#loginModal"><i class="pe-7s-add-user"></i></a>
+            </div>
+        </nav>
+         <section class="container-fluid p-side home-section" id="home">
+            <div class="container banner-text">
+                <div class="row">
+                    <div class="col-lg-7 mt-13 d-flex justify-content-center">
+                        <img src="icon/Icon.png" alt="logo">
+                    </div>
+                    <div class="col-lg-12 pt-5">
+                        <h1>Welcome To MyStore</h1>
+                    </div>
+
+                    <div class="col-lg-12 pt-5" style="margin-bottom: 1rem;">
+                        <h2>Making Sopping Better</h2>
+                        <!-- <h3 class="pt-3">Italian Specialities</h3> -->
+                    </div>
+                    <div class="col-lg-5 col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        </div>    
+<!-- -------------------------------------Search ------------------------------------------>
+
+            <div class="search__area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="search__inner">
+                                <form action="#" method="get">
+                                    <input placeholder="Search here... " type="text">
+                                    <button type="submit"></button>
+                                </form>
+                                <div class="search__close__btn">
+                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close fa fa-close"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+
+
+
+     <section class="container-fluid p-side  about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-6 col-md-12 about-text">
+                	<aside class="mt-13 mb-5 left-side-img">
+                    </aside>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 col-md-12">
+                    <aside class="contact">
+                        <div class="container contact-mb">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="pt-4">Contact</h3>
+                                    <p>Vestibulum ante ipsum primis in faucibus orciluctus et ultrices posuere cubilia.</p>
+                                    <h5>EMAIL : MyStore@gmail.com</h5>
+                                    <a href="#contact" class="map-link"></a>
+                                    <h5 class="pt-3">Social Network:</h5>
+                                    <a href="#contact" class="social-network"><i class="fa fa-facebook"></i></a>
+                                    <a href="#contact" class="social-network"><i class="fa fa-instagram"></i></a>
+                                    <a href="#contact" class="social-network"><i class="fa fa-pinterest-p"></i></a>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center mb-4">
+                                    <a href="#reservation" class="btn box-out btn-secondary rounded-0 hvr-rectangle-out">Send
+                                        Email</a>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- <aside class="mt-7 mb-5 side-img">
+                    </aside> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid p-side  about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div id="AboutUs" class="col-lg-5 col-lg-5 col-md-12 about-text">
+                     <h1 class="">About Us</h1>
+                    <p class="mt-6 mb-5">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                        Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci
+                        porta dapibus.
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui
+                        posuere blandit.
+                        Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. </p>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <aside class="contact">
+                        <div class="container contact-mb">
+                            <div class="row">
+                                <div class="col-12">
+                                   <aside class="mt-7 mb-5 right-side-img">
+                    				</aside> 
+                    			</div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Trand" class="container-fluid mb-5 pt-3 parallax" >
+    <h2 class="text-capitalize pt-2 pb-2 text-center section-title">trending posts</h2>
+    <br>
+    <div class="owl-carousel" style="display:flex;justify-content: space-around;">
+      <div class="posts__slider-item-content">
+        <a href="#">
+          <img src="images/store.jpg" alt="" class="posts__slider-img">
+        </a>
+        <div class="posts-slider-item-more">
+          <a href="#" class="categories-link text-uppercase">style</a>
+          <h3 class="posts-slider-item-title text-capitalize">Evening Style</h3>
+          <a href="#" class="more_right-arrow-icon"></a>
+        </div>
+      </div>
+
+      <div class="posts__slider-item-content">
+        <a href="#">
+          <img src="images/store1.jpg" alt="" class="posts__slider-img">
+        </a>
+        <div class="posts-slider-item-more">
+          <a href="#" class="categories-link text-uppercase">style</a>
+          <h3 class="posts-slider-item-title text-capitalize">Business Style</h3>
+          <a href="#" class="more_right-arrow-icon"></a>
+        </div>
+      </div>
+      <div class="posts__slider-item-content">
+        <a href="#">
+          <img src="images/colection.jpg" alt="" class="posts__slider-img">
+        </a>
+        <div class="posts-slider-item-more">
+          <a href="#" class="categories-link text-uppercase">style</a>
+          <h3 class="posts-slider-item-title text-capitalize">Casual Style</h3>
+          <a href="#" class="more_right-arrow-icon"></a>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+
+<!-- -------------------------------------------------colection ------------------------------------------------->
+
+
+  <section id="Colection">
+            <div class="container">
+                <div class="section02-div01 d-flex align-middle flex-column align-items-center">
+                    <div class="br-line d-flex justify-content-between align-items-center">
+                        <div class="line-div">  
+                        </div>
+                        <div class="circle-div">
+                            <h5>THE COLECTION</h5>
+                        </div>
+                        <div class="line-div">    
+                        </div>
+                    </div>
+                </div>
+            </div>
+   </section>
+   <section >
+            <div class="colection container">
+                    <div class="boy ">         
+                            <a href="details.html#">
+                                <img src="images/bag1.jpg">
+                            </a>
+                            <div class="name">
+                                <a href="">Bag</a>
+                                <p>40Gel</p>
+                            </div>
+                    </div>
+                    <div class="boy">
+                        <a href="details.html#">
+                                <img src="images/dress.jpg">
+                        </a>
+                        <div class="name">
+                            <a href="">Dress</a>
+                            <p>25Gel</p>
+                        </div>
+                    </div>
+                    <div class="boy last-child">
+                        <a href="details.html#">
+                                <img src="images/sun.jpg">
+                        </a>
+                        
+                        <div class="name">
+                            <a href="">Sun Glasses</a>
+                            <p>30Gel</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="colection container">
+                    <div class="boy ">         
+                            <a href="details.html#">
+                                <img src="images/colection.jpg">
+                            </a>
+                            <div class="name">
+                                <a href="">Dress</a>
+                                <p>25Gel</p>
+                            </div>
+                    </div>
+                    <div class="boy">
+                        <a href="details.html#">
+                                <img src="images/adidas.jpg">
+                        </a>
+                        <div class="name">
+                            <a href="">Shoe</a>
+                            <p>99Gel</p>
+                        </div>
+                    </div>
+                    <div class="boy last-child">
+                        <a href="">
+                                <img src="images/tshirts.png">
+                        </a>
+                        
+                        <div class="name">
+                            <a href="">Dress</a>
+                            <p>25Gel</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="colection container">
+                    <div class="boy ">         
+                            <a href="details.html#">
+                                <img src="images/kid.jpg">
+                            </a>
+                            <div class="name">
+                                <a href="">Kid</a>
+                                <p>25Gel</p>
+                            </div>
+                    </div>
+
+                    <div class="boy">
+                        <a href="details.html#">
+                                <img src="images/man.jpg">
+                        </a>
+                        <div class="name">
+                            <a href="">Dress</a>
+                            <p>60Gel</p>
+                        </div>
+                    </div>
+                    <div class="boy last-child">
+                        <a href="details.html#">
+                                <img src="images/kiddress.jpg">
+                        </a>
+                        
+                        <div class="name">
+                            <a href="">Dress</a>
+                            <p>42Gel</p>
+                        </div>
+                    </div>
+            </div>
+
+
+    </section>
+
+
+<!-- ------------------------------------Mail ------------------------------------------------------->
+ 
+    <section id="Contact" class="p-5 contact-img">
+        <div class="container-fluid">
+             <!-- title -->
+             <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text">Contact Us</h3>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <form class="text-muted">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-danger btn-block" type="submit">Submit Question</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- --------------------------------------------------------------------- footer ----------------------------------------->
+
+    <footer class="page_footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center pt-3 pb-3">
+        <div>Copyrights © 2019. Personal Blog Template by Teona Tilkavashvili</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+     <!-- Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="login">
+                                <div class="login-form-container">
+                                    <div class="login-text">
+                                        <h2>Sign In</h2>
+                                        <span>Please login using account detail bellow.</span>
+                                    </div>
+                                    <div class="login-form">
+                                        <form action="#" method="post">
+                                            <input type="text" name="user-name" placeholder="Username">
+                                            <input type="password" name="user-password" placeholder="Password">
+                                            <div class="button-box">
+                                                <div class="login-toggle-btn">
+                                                    <input type="checkbox" id="remember">
+                                                    <label for="remember">Remember me</label>
+                                                    <a href="#">Forgot Password?</a>
+                                                </div>
+                                                <button type="submit" class="default-btn floatright">Sign In</button>
+                                                <br>
+                                                <a href="signUp.html" class="btn" type="submit">SIgn Up</a>
+                                                <!-- <button type="submit" class="default-btn floatright">Sign Up</button> -->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal end -->
+
+
+
+
+
+
+<script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+            new WOW().init();
+    </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

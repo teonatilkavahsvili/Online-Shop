@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title>Details</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/_all-css-files.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <header class="header">
+        <div class="banner">
+          <nav class="main-navigation container">
+            <div class="menu-icon">
+                <h1 class="web_logo">
+                <a href="index.html" class="web_logo-link">MyStore</a>
+            </h1>
+                <i class="fa fa-bars fa-2x mobile-menu-opener"></i>
+            </div>
+            <h1 class="web_logo logo-hidden">
+                <a href="index.html" class="web_logo-link">MyStore</a>
+            </h1>
+            <ul class="main_menu" id="main_menu">
+                <li class="main_menu-item"><a href="#" class="main_menu-item--link main_menu-item--active">About Us</a></li>
+                <li class="main_menu-item"><a href="#" class="main_menu-item--link">Shop</a></li>
+                <li class="main_menu-item"><a href="#" class="main_menu-item--link">Contact</a></li>
+                <!-- <li class="main_menu-item"><a href="#" class="main_menu-item--link">SignIn <i class="fa fa-sign-in"></i></a></li> -->
+                <li class="main_menu-item"><a href="#" class="main_menu-item--link search__open"><i class="fa fa-search"></i></a></li>
+                <li class="main_menu-item"><a href="#" data-toggle="modal" data-target="#loginModal" class="main_menu-item--link"><i class="fa fa-user"></i></a></li>
+
+            </ul>
+            <div class="user">
+                        <a href="#" data-toggle="modal" data-target="#loginModal"><i class="pe-7s-add-user"></i></a>
+            </div>
+        </nav>
+         <section class="container-fluid p-side home-section" id="home">
+            <div class="container banner-text">
+                <div class="row">
+                    <div class="col-lg-7 mt-13 d-flex justify-content-center">
+                        <img src="icon/Icon.png" alt="logo">
+                    </div>
+                    <div class="col-lg-12 pt-5">
+                        <h1>Welcome To MyStore</h1>
+                    </div>
+
+                    <div class="col-lg-12 pt-5" style="margin-bottom: 1rem;">
+                        <h2>Making Sopping Better</h2>
+                        <!-- <h3 class="pt-3">Italian Specialities</h3> -->
+                    </div>
+                    <div class="col-lg-5 col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        </div>    
+<!-- -------------------------------------Search ------------------------------------------>
+
+            <div class="search__area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="search__inner">
+                                <form action="#" method="get">
+                                    <input placeholder="Search here... " type="text">
+                                    <button type="submit"></button>
+                                </form>
+                                <div class="search__close__btn">
+                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close fa fa-close"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+
+
+
+
+
+    <!-- details-product-area-start -->
+    <div class="details-product-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 col-12">
+                    <div class="product-tab">
+                        <div class="pt-content tab-content">
+                            <div class="tab-pane active" id="pro_1" role="tabpanel">
+                                <div class="ptc-box">
+                                    <img src="images/bag1.jpg" alt="">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pro_2" role="tabpanel">
+                                <div class="ptc-box">
+                                    <img src="images/bag1.jpg" alt="">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pro_3" role="tabpanel">
+                                <div class="ptc-box">
+                                    <img src="images/bag1.jpg" alt="">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pro_4" role="tabpanel">
+                                <div class="ptc-box">
+                                    <img src="images/bag1.jpg" alt="">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pt-menu nav nav-tabs pt-menu-carousel owl-carousel" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#pro_1" role="tab"><img src="images/bag2.jpg" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pro_2" role="tab"><img src="images/bag3.jpg" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pro_3" role="tab"><img src="images/bag4.jpg"alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pro_4" role="tab"><img src="images/bag3.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12 col-12">
+                    <div class="product-details">
+                        <h2 class="name">Product</h2>
+                        <div class="review">
+                            <div class="rating clearfix">
+                                <div class="star star-on"></div>
+                                <div class="star star-on"></div>
+                                <div class="star star-on"></div>
+                                <div class="star star-on"></div>
+                                <div class="star star-half"></div>
+                            </div>
+                            <p class="count">16 Reviews(S)</p>
+                        </div>
+                        <h2 class="price">Gel35.00 <span class="old-price">Gel45.00</span></h2>
+                       
+                        <p class="desc"><span>Short Description:</span>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, </p>
+                        <div class="qty-availability">
+                            <p class="quantity cart-plus-minus">
+                                <label>Qty:</label>
+                                <input type="text" value="1" />
+                            </p>
+                            <p class="availability">Availability : <span class="yes">IN STOCK ; </span></p>
+                            <p class="availability"> Size : <span class="yes">Standart ; </span></p>
+                            <p class="availability"> Color : <span class="yes">Red </span></p>
+                        </div>
+                        <div class="buttons">
+                            <a class="add-cart" href="#">Add to Cart</a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-refresh"></i></a></li>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                    <!-- view-modal-start -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="view-modal modal-dialog" role="document">
+                                            <div class="view-modal-content modal-content">
+                                                <span class="close" data-dismiss="modal"><i class="fa fa-close"></i></span>
+                                                <div class="row">
+                                                    <div class="col-lg-7 col-md-5 col-sm-12 col-12">
+                                                        <div class="ptc-box">
+                                                            <img src="img/details/product-1.jpg" alt="">
+                                                            <span class="sale">sale</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5 col-md-7 col-sm-12 col-12">
+                                                        <div class="product-details">
+                                                            <h2 class="name">There are Many Variations</h2>
+                                                            <div class="review">
+                                                                <div class="rating clearfix">
+                                                                    <div class="star star-on"></div>
+                                                                    <div class="star star-on"></div>
+                                                                    <div class="star star-on"></div>
+                                                                    <div class="star star-on"></div>
+                                                                    <div class="star star-half"></div>
+                                                                </div>
+                                                                <p class="count">564 Reviews(S)</p>
+                                                            </div>
+                                                            <h2 class="price">$990.00 <span class="old-price">$999.00</span></h2>
+                                                            <p class="desc"><span>Short Description:</span>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, </p>
+                                                            <div class="qty-availability">
+                                                                <p class="quantity cart-plus-minus">
+                                                                    <label>Qty:</label>
+                                                                    <input type="text" value="1" />
+                                                                </p>
+                                                                <p class="availability">Availability : <span class="yes">IN STOCK</span></p>
+                                                            </div>
+                                                            <div class="buttons">
+                                                                <a class="add-cart" href="#">Add to Cart</a>
+                                                                <ul>
+                                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-refresh"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- view-modal-end -->
+                                </li>
+                            </ul>
+                        </div>
+<!--                         <div class="share">
+                            <span>Share :</span>
+                            <ul>
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="g-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="skype" href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- details-product-area-end -->
+    <!-- product-tab-area-start -->
+    <div class="product-details-tab-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-details-tab">
+                        <ul class="pdt-menu nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#description" role="tab">description</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#comments" role="tab">COMMENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#review" role="tab">review</a>
+                            </li>
+                        </ul>
+                        <div class="pdt-content tab-content">
+                            <div class="tab-pane active" id="description" role="tabpanel">
+                                <div class="pdtc-box">
+                                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, remaining essentially unchanged Ipsum. Lorem Ipsum has been the industry's standard printer tok but galley of type into electronic typesetting, remaining essentially unchanged Ipsum.
+                                        <br>
+                                        <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, remaining essentially unchanged Ipsum. Lorem Ipsum has been the industry's standard printer tok but galley of type into electronic typesetting, remaining essentially unchanged Ipsum.
+                                        <br>
+                                        <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. but centuries, but also the leap into electronic typesetting, remaining essentially unchanged Ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="comments" role="tabpanel">
+                                <div class="pdtc-box">
+                                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, remaining essentially unchanged Ipsum. Lorem Ipsum has been the industry's standard printer tok but galley of type into electronic typesetting, remaining essentially unchanged Ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="review" role="tabpanel">
+                                <div class="pdtc-box">
+                                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, remaining essentially unchanged Ipsum. Lorem Ipsum has been the industry's standard printer tok but galley of type into electronic typesetting, remaining essentially unchanged Ipsum.
+                                        <br>
+                                        <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make sfsa type specimen book. It has survived not only five but centuries, but also the leap into electronic typesetting, remaining essentially unchanged Ipsum. Lorem Ipsum has been the industry's standard printer tok but galley of type into electronic typesetting, remaining essentially unchanged Ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product-tab-area-end -->
+   
+   <section>
+            <div class="container">
+                <div class="section02-div01 d-flex align-middle flex-column align-items-center">
+                    <div class="br-line d-flex justify-content-between align-items-center">
+                        <div class="line-div">  
+                        </div>
+                        <div class="circle-div">
+                            <h5>Similar Category</h5>
+                        </div>
+                        <div class="line-div">    
+                        </div>
+                    </div>
+                </div>
+            </div>
+   </section>
+   <section>
+            <div class="colection container-fluid">
+                    <div class="boy ">         
+                            <a href="">
+                                <img src="images/bag.jpg">
+                            </a>
+                            <div class="name">
+                                <a href="">Bag</a>
+                                <p>50Gel</p>
+                            </div>
+                    </div>
+                    <div class="boy">
+                        <a href="">
+                                <img src="images/bagred.jpg">
+                        </a>
+                        <div class="name">
+                            <a href="">bag</a>
+                            <p>45Gel</p>
+                        </div>
+                    </div>
+                    <div class="boy last-child">
+                        <a href="">
+                                <img src="images/bagblue.jpg">
+                        </a>
+                        
+                        <div class="name">
+                            <a href="">bag</a>
+                            <p>38Gel</p>
+                        </div>
+                    </div>
+            </div>
+    
+           
+
+        </section>
+            <!-- --------------------------------------------------------------------- footer ----------------------------------------->
+
+    <footer class="page_footer" style="margin-top: 50px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center pt-3 pb-3">
+        <div>Copyrights © 2019. Personal Blog Template by Teona Tilkavashvili</div>
+      </div>
+    </div>
+  </div>
+</footer>
+   
+   
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script src="js/isotope-packaged.js"></script>
+    <script src="js/imagesLoaded-PACKAGED.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+            new WOW().init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
